@@ -1,3 +1,8 @@
-export function hello() {
+/**
+ *
+ * @param {string} name
+ * @returns {string}
+ */
+export function hello(name) {
   return 'Hello, World!'
 }
