@@ -4,5 +4,5 @@
  * @returns {string}
  */
 export function hello(name) {
-  return 'Hello, World!'
+  return 'Hello, ' + name + '!'
 }
