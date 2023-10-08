@@ -15,3 +15,10 @@ it("should return 'Hello, World!' when an empty string is supplied", () => {
 
   assert.equal(got, want)
 })
+
+it("should return 'Hola, Je-Hwan!' when language is Spanish", () => {
+  const got = hello('', "Spanish")
+  const want = 'Hola, World!'
+
+  assert.equal(got, want)
+})
